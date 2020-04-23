@@ -1,0 +1,177 @@
+.main-container {
+    background: url(../img/bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.slider-nav ul {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.slider-nav ul li {
+    display: inline-block;
+    background-color: #0CE879;
+    color: #ffffff;
+    margin: 5px 5px;
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.slider-nav-elem {
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.slide {
+    padding: 10px;
+}
+
+.slide-title {
+    margin: 5px 0;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    color: #0CE879;
+    text-transform: uppercase;
+}
+
+.slide-title h4 {
+    font-size: 5rem;
+}
+
+.slide-col {
+    background-color:rgba(255, 255, 255, 0.2);
+    padding: 10px;
+}
+
+.page-title {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.page-title h1 {
+    color: #0CE879;
+    font-size: 48px;
+    font-family: 'Indie Flower', cursive;
+}
+
+.slide-col h2 {
+    color: #0CE879;
+    font-family: 'Indie Flower', cursive;
+}
+
+.slide-col .card-body {
+    text-align: center;
+    padding: 10px 5px;
+}
+.slide-col .card-body h5 {
+    margin: 0;
+}
+
+.slide-elem {
+    min-height: 120px;
+    position: relative;
+    margin-bottom: 15px;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.slide-elem-text {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-color:rgba(0, 0, 0, 0.5);
+    padding: 5px 10px;
+}
+
+.slide-elem-text h5 {
+    margin: 0;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+.footer-text {
+    color: #0CE879;
+    padding: 10px 5px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 22px;
+}
+
+.footer-text a {
+    color: #0CE879;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 540px) {
+    .slide-title h4 {
+        font-size: 3.5rem;
+    }
+
+    .page-title h1 {
+        font-size: 28px;
+    }
+}
+
+/* NEW THEME */
+
+.minimal-container .page-title-container {
+    background-color: #323232;
+}
+
+.minimal-container footer {
+    background-color: #323232;
+}
+
+.minimal-container .slide-elem {
+    margin-bottom: 0px;
+    min-height: 180px;
+}
+
+.minimal-container .slide-elem-text {
+    position: relative;
+    margin-bottom: 15px;
+    background-color: transparent;
+    text-align: center;
+}
+
+.minimal-container .slide-elem-text h5 {
+    color: #333333;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.minimal-container .all-container h6 {
+    font-size: 2em;
+}
+
+.minimal-container .all-container .slide-title h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #333333;
+}
+
+.minimal-container .all-container .slide-col h2 {
+    font-size: 4rem;
+}
+
+.minimal-container .slider-nav ul {
+    margin-bottom: 0;
+}
+
+.minimal-container .slider-nav ul li {
+    margin: 5px 1px;
+    border-radius: 0;
+    padding: 5px 20px;
+}
